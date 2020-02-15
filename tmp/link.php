@@ -22,6 +22,10 @@
 <!-- summernote css -->
 <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.15/dist/summernote.min.css" rel="stylesheet">
 <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/4.0.0/css/jasny-bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/4.0.0/css/jasny-bootstrap.min.css">
 <!-- CSS Template -->
 <link href="/project/CMSAdminDashboard/tmp/architectui/main.css" rel="stylesheet">
+<!-- FontGoogle -->
+<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet"> 
+<!-- MYCSS -->
+<link rel="stylesheet" type="text/css" href="/project/CMSAdminDashboard/tmp/style.css">

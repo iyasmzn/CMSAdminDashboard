@@ -30,7 +30,7 @@
 							<div class="card-body"><h5 class="card-title">User form</h5>
 								<form class="" method="post" action="#">
 									<div class="form-row">
-										<div class="col-md-6">
+										<div class="col-md-8">
 											<div class="position-relative form-group">
 												<label for="exampleEmail11" class="">Name</label>
 												<div class="input-group">
@@ -41,7 +41,7 @@
 										</div>
 									</div>
 									<div class="form-row">
-										<div class="col-md-6">
+										<div class="col-md-8">
 											<div class="position-relative form-group">
 												<label for="exampleEmail11" class="">Email</label>
 												<div class="input-group">
