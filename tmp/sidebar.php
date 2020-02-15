@@ -47,7 +47,7 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="elements-buttons-standard.html">
+                            <a href="/project/CMSAdminDashboard/category/">
                                 <i class="metismenu-icon"></i>
                                 List Categories
                             </a>
@@ -68,7 +68,7 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="elements-buttons-standard.html">
+                            <a href="/project/CMSAdminDashboard/article/">
                                 <i class="metismenu-icon"></i>
                                 List Articles
                             </a>
@@ -90,7 +90,7 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="elements-buttons-standard.html">
+                            <a href="/project/CMSAdminDashboard/user/">
                                 <i class="metismenu-icon"></i>
                                 List Users
                             </a>

@@ -25,6 +25,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/4.0.0/css/jasny-bootstrap.min.css">
 <!-- CSS Template -->
 <link href="/project/CMSAdminDashboard/tmp/architectui/main.css" rel="stylesheet">
+<!-- DataTables -->
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css">
 <!-- FontGoogle -->
 <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet"> 
 <!-- MYCSS -->

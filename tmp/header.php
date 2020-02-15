@@ -1,7 +1,7 @@
 <div class="app-header header-shadow">
     <div class="app-header__logo">
-        <div class="MYLOGOS text-dark">
-            <h3><b>A</b>dmin<b>SU</b>i</h3>
+        <div class="logo-src MYLOGOS text-dark">
+            <h3 style="background-color: white"><b>A</b>dmin<b>SU</b>i</h3>
         </div>
         <div class="header__pane ml-auto">
             <div>

@@ -1,11 +1,11 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<title>Dashboard</title>
+	<title>Article | Add</title>
 	<?php include '/var/www/html/project/CMSAdminDashboard/tmp/link.php'; ?>
 </head>
 <body>
-	<div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header">
+	<div class="app-container app-theme-white body-tabs-shadow fixed-sidebar">
 		<?php 
 			include '/var/www/html/project/CMSAdminDashboard/tmp/header.php'; 
 			include '/var/www/html/project/CMSAdminDashboard/tmp/themeSettings.php';
@@ -60,16 +60,16 @@
 										</form>
 									</div>
 									<div class="form-row">
-										<div class="col-md-8">
+										<div class="col-md-6">
 											<label>Date</label>
 											<div class="input-group date" data-provide="datepicker">
-											  <input type="text" class="form-control">
+											  <input type="date" class="form-control">
 											  <div class="input-group-addon">
 											    <span class="glyphicon glyphicon-th"></span>
 											  </div>
 											</div>
 										</div>
-										<div class="col-md-4">
+										<div class="col-md-6 text-center">
 											<label>Upload Image</label>
 											<div class="position-relative form-group">
 												<div class="fileinput fileinput-new" data-provides="fileinput">
@@ -86,6 +86,7 @@
 											</div>
 										</div>
 										<div class="col-md-12 text-center">
+											<a class="btn btn-lg btn-shadow btn-warning" href="index.php"><i class="fas fa-angle-double-left"></i> BACK</a>
 											<button type="submit" class="btn btn-lg btn-primary"> POST <i class="fas fa-paper-plane"></i></button>
 										</div>
 									</div>

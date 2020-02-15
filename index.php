@@ -5,7 +5,7 @@
 	<?php include '/var/www/html/project/CMSAdminDashboard/tmp/link.php'; ?>
 </head>
 <body>
-	<div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header">
+	<div class="app-container app-theme-white body-tabs-shadow fixed-sidebar">
 		<?php 
 			include '/var/www/html/project/CMSAdminDashboard/tmp/header.php'; 
 			include '/var/www/html/project/CMSAdminDashboard/tmp/themeSettings.php';

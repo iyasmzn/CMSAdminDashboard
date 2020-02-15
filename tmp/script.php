@@ -10,17 +10,20 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/4.0.0/js/jasny-bootstrap.min.js"></script>
 <!-- Template -->
 <script type="text/javascript" src="/project/CMSAdminDashboard/tmp/architectui/assets/scripts/main.js"></script>
+<!-- DataTables -->
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
 <!-- MyScript -->
 <script type="text/javascript">
 	$(document).ready(function() {
-		$('.category-select2').select2({
-			width: 300
-		});
+		$('#table_id').DataTable();
+		$('.fileinput').fileinput();
 		$('#summernote').summernote({
 			placeholder: 'Write here...',
 			height: 300
 		});
-		$('.fileinput').fileinput();
+		$('.category-select2').select2({
+			width: 300
+		});
 		$('.datepicker').datepicker();
 	});
 </script>

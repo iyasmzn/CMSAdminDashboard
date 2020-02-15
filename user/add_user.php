@@ -5,7 +5,7 @@
 	<?php include '/var/www/html/project/CMSAdminDashboard/tmp/link.php'; ?>
 </head>
 <body>
-	<div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header">
+	<div class="app-container app-theme-white body-tabs-shadow fixed-sidebar">
 		<?php 
 			include '/var/www/html/project/CMSAdminDashboard/tmp/header.php'; 
 			include '/var/www/html/project/CMSAdminDashboard/tmp/themeSettings.php';
@@ -86,7 +86,7 @@
 										</div>
 									</div>
 									<div class="w-100 text-center">
-										<a class="btn btn-lg btn-shadow btn-warning"><i class="fas fa-angle-double-left"></i> BACK</a>
+										<a class="btn btn-lg btn-shadow btn-warning" href="index.php"><i class="fas fa-angle-double-left"></i> BACK</a>
 										<button type="submit" class="btn btn-lg btn-shadow btn-info">ADD <i class="fas fa-plus"></i></button>
 									</div>
 								</form>
