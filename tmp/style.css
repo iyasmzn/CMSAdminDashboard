@@ -1,3 +1,14 @@
 .MYLOGOS {
 	font-family: 'Pacifico', cursive;
 }
+.logo-src {
+	background: white!important;
+	position: relative;
+}
+.logo-src:after {
+	position: absolute;
+	content: 'AdminSUiLite';
+	left: 0;top: 0;
+	font-family: 'Pacifico', cursive;
+	font-size: 1.7em;
+}
