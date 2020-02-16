@@ -20,7 +20,7 @@
 									<i class="pe-7s-news-paper icon-gradient bg-mean-fruit">
 									</i>
 								</div>
-								<div>Add Article
+								<div>Post New Article
 								</div>
 							</div>    
 						</div>

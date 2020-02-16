@@ -31,17 +31,17 @@
     </div>    <div class="scrollbar-sidebar">
         <div class="app-sidebar__inner">
             <ul class="vertical-nav-menu">
-                <li class="app-sidebar__heading">Home</li>
+                <li class="app-sidebar__heading">Dashboard</li>
                 <li>
                     <a href="/project/CMSAdminDashboard/" class="mm-active">
-                        <i class="metismenu-icon pe-7s-home"></i>
-                        Dashboard
+                        <i class="metismenu-icon fas fa-home icon-gradient bg-night-fade"></i>
+                        Home
                     </a>
                 </li>
                 <li class="app-sidebar__heading">Main</li>
                 <li>
                     <a href="#">
-                        <i class="metismenu-icon fas fa-database icon-gradient bg-plum-plate"></i>
+                        <i class="metismenu-icon fas fa-database icon-gradient bg-asteroid"></i>
                         Category
                         <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i>
                     </a>
@@ -62,7 +62,7 @@
                 </li>
                 <li>
                     <a href="#">
-                        <i class="metismenu-icon pe-7s-news-paper"></i>
+                        <i class="metismenu-icon fas fa-paperclip icon-gradient bg-danger"></i>
                         Article
                         <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i>
                     </a>
@@ -84,7 +84,7 @@
                 <li class="app-sidebar__heading">Users</li>
                 <li>
                     <a href="#">
-                        <i class="metismenu-icon fas fa-user icon-gradient bg-warning"></i>
+                        <i class="metismenu-icon fas fa-user icon-gradient bg-malibu-beach"></i>
                         User
                         <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i>
                     </a>

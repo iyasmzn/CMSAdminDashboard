@@ -17,10 +17,10 @@
 						<div class="page-title-wrapper">
 							<div class="page-title-heading">
 								<div class="page-title-icon">
-									<i class="pe-7s-news-paper icon-gradient bg-mean-fruit">
+									<i class="fas fa-database icon-gradient bg-asteroid">
 									</i>
 								</div>
-								<div>Add Article
+								<div>Add Category
 								</div>
 							</div>    
 						</div>

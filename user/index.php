@@ -17,7 +17,7 @@
 						<div class="page-title-wrapper">
 							<div class="page-title-heading">
 								<div class="page-title-icon">
-									<i class="fas fa-users icon-gradient bg-mean-fruit">
+									<i class="fas fa-users icon-gradient bg-malibu-beach">
 									</i>
 								</div>
 								<div>Users
