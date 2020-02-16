@@ -32,19 +32,19 @@
 									<div class="form-row">
 										<div class="col-md-6">
 											<div class="position-relative form-group">
-												<label for="exampleEmail11" class="">Title</label>
+												<label for="titled" class="">Title</label>
 												<div class="input-group">
-													<div class="input-group-prepend"><span class="input-group-text"><i class="fas fa-tag"></i></span></div>
-													<input placeholder="title here..." type="text" class="form-control">
+													<div class="input-group-prepend"><label for="titled" class="input-group-text"><i class="fas fa-tag"></i></label></div>
+													<input placeholder="title here..." type="text" class="form-control" id="titled">
 												</div>
 											</div>
 										</div>
 										<div class="col-md-6">
 											<div class="position-relative form-group">
-												<label for="exampleEmail11" class="">Category</label>
+												<label for="categorid" class="">Category</label>
 												<div class="input-group p-2">
-													<div class="input-group-prepend"><span class="input-group-text"><i class="fas fa-database"></i></span></div>
-													<select class="category-select2 py-1">
+													<div class="input-group-prepend"><label for="categorid" class="input-group-text"><i class="fas fa-database"></i></label></div>
+													<select id="categorid" class="category-select2 py-1">
 														<?php $x=1; for ($i=0; $i < 100; $i++) { ?>
 															<option>Select2 <?= $x++ ?></option>
 														<?php } ?>
@@ -61,12 +61,10 @@
 									</div>
 									<div class="form-row">
 										<div class="col-md-6">
-											<label>Date</label>
-											<div class="input-group date" data-provide="datepicker">
-											  <input type="date" class="form-control">
-											  <div class="input-group-addon">
-											    <span class="glyphicon glyphicon-th"></span>
-											  </div>
+											<label for="datepicker">Date</label>
+											<div class="input-group">
+												<input type="text" id="datepicker" size="30" placeholder="Day, dd M, yyyy"></p>
+												<div class="input-group-prepend"><label for="datepicker" class="input-group-text"><i class="fas fa-calendar"></i></label></div>
 											</div>
 										</div>
 										<div class="col-md-6 text-center">

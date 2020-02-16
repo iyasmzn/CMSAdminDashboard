@@ -35,22 +35,24 @@
 					            <th>Name</th>
 					            <th>Email</th>
 					            <th>Date</th>
+					            <th>Level</th>
 					            <th>Action</th>
 						        </tr>
 							    </thead>
 							    <tbody>
 							    	<?php 
-							    	$no = 1;
-							    	$no1 = 1;
-							    	$no2 = 1;
+							    	$no 	= 1;
+							    	$no1 	= 1;
+							    	$no2 	= 1;
+							    	$no3  = 2100;
 							    	for ($i=0; $i < 100; $i++) { 
 							    	?>
 							    	<tr>
 							    		<td class="text-center"><?= $no++ ?></td>
 							    		<td>User <?= $no1++ ?></td>
 							    		<td>user<?= $no2++ ?>@gmail.com</td>
-							    		<td> 
-							    		</td>
+							    		<td>01 - 01 - <?= $no3-- ?></td>
+							    		<td class="text-left"><p class="badge badge-info">Admin</p></td>
 							    		<td>
 							    			<a href="" class="btn btn-sm btn-warning"><i class="fas fa-cog"></i></a>
 							    			<a href="" class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></a>
