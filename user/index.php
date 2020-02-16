@@ -25,6 +25,7 @@
 							</div>    
 						</div>
 					</div> 
+					<a class="btn btn-lg btn-info mb-3" href="add_user.php"><i class="fas fa-plus icon-gradient bg-asteroid"></i></a>
 						<div class="main-card mb-3 card">
 							<div class="card-body"><h5 class="card-title">Users List</h5>
 								<table id="table_id" class="display">
