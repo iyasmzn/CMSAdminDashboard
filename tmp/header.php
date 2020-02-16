@@ -97,3 +97,6 @@
             </div>        </div>
     </div>
 </div> 
+<?php 
+            include '/var/www/html/project/CMSAdminDashboard/tmp/themeSettings.php';
+ ?>

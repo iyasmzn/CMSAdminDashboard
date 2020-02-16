@@ -8,7 +8,6 @@
 	<div class="app-container app-theme-white body-tabs-shadow fixed-sidebar">
 		<?php 
 			include '/var/www/html/project/CMSAdminDashboard/tmp/header.php'; 
-			include '/var/www/html/project/CMSAdminDashboard/tmp/themeSettings.php';
 		?>        
 		<div class="app-main">
 			<?php include '/var/www/html/project/CMSAdminDashboard/tmp/sidebar.php'; ?>

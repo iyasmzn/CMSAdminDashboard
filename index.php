@@ -1,14 +1,13 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<title>Dashboard</title>
+	<title>Home</title>
 	<?php include '/var/www/html/project/CMSAdminDashboard/tmp/link.php'; ?>
 </head>
 <body>
 	<div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header">
 		<?php 
 			include '/var/www/html/project/CMSAdminDashboard/tmp/header.php'; 
-			include '/var/www/html/project/CMSAdminDashboard/tmp/themeSettings.php';
 		?>        
 		<div class="app-main">
 			<?php include '/var/www/html/project/CMSAdminDashboard/tmp/sidebar.php'; ?>
@@ -22,7 +21,7 @@
 									</i>
 								</div>
 								<div>Home
-									<div class="page-title-subheading">This is an example dashboard created using build-in elements and components.
+									<div class="page-title-subheading">Dashboard.
 									</div>
 								</div>
 							</div>    
